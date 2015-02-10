@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<name>Colby A. Moore</name>
+		<cwid>200-75-678</cwid>
+		<username>colby.moore1</username>
+		<kaccount>kqwer</kaccount>
+		<password>password</password>
+	</student>
+	<student>
+		<name>Juan M. Bancamper</name>
+		<cwid>200-12-345</cwid>
+		<username>juan.bancamper1</username>
+		<kaccount>khj7r</kaccount>
+		<password>password1</password>
+	</student>
+	<student>
+		<name>Nicholas R. Schwartz</name>
+		<cwid>200-09-876</cwid>
+		<username>nicholas.schwartz1</username>
+		<kaccount>kzxcv</kaccount>
+		<password>password2</password>
+	</student>
+	<student>
+		<name>Greg J. Autori</name>
+		<cwid>200-65-432</cwid>
+		<username>Greg.autori1</username>
+		<kaccount>kmnbv</kaccount>
+		<password>password3</password>
+	</student>
+	<student>
+		<name>Molly E. Elliot</name>
+		<cwid>200-64-123</cwid>
+		<username>Molly.elliot1</username>
+		<kaccount>klkjg</kaccount>
+		<password>password4</password>
+	</student>
+</students>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Marist Health Services</title>
+		<meta name='viewport' content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="jquery-1.11.1.min.js"></script>
+		<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<!-- // <script src="scripts/jquery-1.11.1.min.js"></script> -->
+		<script src="scripts/login.js"></script>
+		<script src="jquery-migrate-1.2.1.min.js"></script>
+	</head>
+	<body>
+		<!-- Student Insurance Page -->
+		<div data-role="header" style="background-color: #b31b1b;" data-position="fixed" id="studentIns">
+
+			<!-- Header -->
+			<div data-role="header" style="background-color: #b31b1b;">
+				<a href="#nav-panel" data-role="button" data-theme="b" role="button" data-icon="bars" data-iconpos="notext" class="ui-link ui-btn ui-btn-b ui-icon-bars ui-btn-icon-notext ui-btn-inline ui-shadow ui-corner-all ui-first-child"></a>
+				<h1 style="color: white; font-size: 14.5px;">Student Insurance</h1>
+				<a href="#login-panel" data-role="button" data-theme="b" role="button" data-icon="user" data-iconpos="notext" class="ui-link ui-btn ui-btn-b ui-icon-user ui-btn-icon-notext ui-btn-inline ui-shadow ui-corner-all ui-first-child"></a>
+			</div>
+
+			<!-- Body -->
+			<div data-role="main" class="ui-content" style="background-color: white; height: 515px;">
+				<p>
+					Student Accident and Sickness Insurance Plan</br></br><p style="color: #b31b1b;">Important Information</p></br>Marist College requires all full-time undergraduate students to subscribe to a health insurance policy.  Full-time undergraduate students are automatically enrolled in the Marist-sponsored plan administered by Allen J. Flood Companies.  Students who have comparable or better coverage and do not wish to be enrolled in the Marist sponsored plan must complete an online waiver to provide proof of coverage.  The waiver can be found by visiting the Allen J. Flood web site at www.ajfusa.com under tools for students and universities.</br></br>Students with private health insurance should become familiar with their plan prior to coming to Marist.  For example, students should check with their insurance provider regarding which labs are acceptable to use for blood test, cultures, etc.  Students should also inquire if "referrals" from their Primary Care Provider are required for medical specialist visits.  Family may need to request an additional insurance card for their college student.  Students will need to carry their own health insurance card at college.</br></br></br>
+				</p>
+				<ul data-role="listview">
+					<li>
+						<a href="https://www.marist.edu/healthservices/pdfs/1415brochure.pdf">2014-15 Insurance Plan</a>
+					</li>
+				</ul>
+				<div style="height: 10px;"></div>
+			</div>
+
+			<!-- Footer -->
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="https://www.marist.edu/socialmedia/">Social</a></li>
+						<li><a href="tel:8455753270">Contact</a></li>
+						<li><a href="ack.html" data-rel="dialog" data-transition="flip">Acknowledgements</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Panel in every page -->
+			<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" id="nav-panel">
+				<ul data-role="listview">
+					<li data-icon="carat-l" data-theme="a">
+						<a href="" data-rel="close"><h1>Close Menu</h1></a>
+					</li>
+					<li data-icon="home" data-theme="b">
+						<a href="index.html" data-transition="slide">Home</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="healthForms.html" data-transition="slide">Health Forms</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="https://www.marist.edu/healthservices/pdfs/add.pdf">ADD/ADHD Info</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="https://www.marist.edu/healthservices/pdfs/allergy.pdf">Allergy Immunotherapy Program</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="https://www.marist.edu/healthservices/pdfs/disclosureauthorizationform.pdf">Disclosure Authorization</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="https://www.marist.edu/healthservices/pdfs/excusepolicy.pdf">Excuse Policy</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="https://www.marist.edu/healthservices/pdfs/flushotconsent.pdf?v=2">Flu Shot Consent</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="imagery.html" data-rel="dialog" data-transition="pop">Guided Imagery</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="meditation.html" data-rel="dialog" data-transition="pop">Guided Meditation</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="https://www.marist.edu/healthservices/pdfs/1415hs_brochure.pdf">Health Services Brochure</a>
+					</li>
+					<!-- Page with all info -->
+					<li data-icon="carat-r" data-theme="b">
+						<a href="">Immunization Compliance</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="https://www.marist.edu/healthservices/pdfs/influenzaself-careinstructions.pdf">Influenza Self-Care</a>
+					</li>
+					<li data-icon="carat-r" data-theme="b">
+						<a href="http://readsh101.com/marist.html">Student Health 101</a>
+					</li>
+				</ul>
+        	</div>
+
+			<!-- Login Page if no one has logged in. Check in JS to make sure someone can login -->
+			<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="login-panel">
+				<div style="float: right;" data-position="right" data-rel="close" class="ui-link ui-btn ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-inline ui-shadow ui-corner-all ui-first-child">
+				</div>
+				<div class="ui-inner-panel">
+					<form class="userform">
+						<h2>Login</h2>
+						<label for="account">Account:</label>
+						<input type="text" name="account" id="account" value data-clear-btn="true" data-mini="true" />
+						<label for="password">Password:</label>
+						<input type="password" name="password" id="password" value data-clear-btn="true" data-mini="true" />
+					</form>
+					<div class="ui-grid-a">
+						<div classs="ui-block-a">
+							<a href="#" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-a" onclick="checkUser()">Login</a>
+						</div>
+						<!-- <div class="ui-block-b">
+							<a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-b">Close</a>
+						</div> -->
+
+						<!-- Camera Button to sign in -->
+						<div class="ui-block-b">
+							<a href="#" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-icon-camera ui-btn-b">Camera Login</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
